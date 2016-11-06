@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "./node_modules/webpack-dev-server/bin --progress --colors"
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js webpack-dev-server --progress --colors"
 
   },
   "repository": {
@@ -17,6 +17,10 @@
     "url": "https://github.com/nicosesma/tutorial-webpack-react/issues"
   },
   "homepage": "https://github.com/nicosesma/tutorial-webpack-react#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.7",
